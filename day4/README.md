@@ -32,7 +32,7 @@ This exercise implements the classic game of Rock, Paper, Scissors. The user pla
 ### How It Works
 
 1. **User Choice:** Capture the user's choice of "rock," "paper," or "scissors."
-2. **Computer Choice:** Use `random.choice()` to select the computer's choice.
+2. **Computer Choice:** Use `random.randint()` to select the computer's choice.
 3. **Determine Winner:** Compare the user's choice and the computer's choice to determine the winner based on the rules:
    - Rock crushes Scissors
    - Scissors cuts Paper

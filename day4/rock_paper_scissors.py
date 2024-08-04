@@ -39,23 +39,27 @@ while True:
         user1 = int(game_choice)
         comp1 = random.randint(0, 2)
 
-        print(f"You chose: {game[user1]}\n")
-        print(f"Computer chose:\n{game[comp1]}\n")
-
-        if user1 == comp1:
-            print("It's a tie!")
-        elif user1 == 0 and comp1 == 1:
-            print("Computer wins!")
-        elif user1 == 0 and comp1 == 2:
-            print("You win!")
-        elif user1 == 1 and comp1 == 0:
-            print("You win!")
-        elif user1 == 1 and comp1 == 2:
-            print("Computer wins!")
-        elif user1 == 2 and comp1 == 0:
-            print("Computer wins!")
+        if user1 >= 3:
+            print("Invalid number, you lose!")
+            # break
         else:
-            print("You win!")
+            print(f"You chose: {game[user1]}\n")
+            print(f"Computer chose:\n{game[comp1]}\n")
+
+            if user1 == comp1:
+                print("It's a tie!")
+            elif user1 == 0 and comp1 == 1:
+                print("Computer wins!")
+            elif user1 == 0 and comp1 == 2:
+                print("You win!")
+            elif user1 == 1 and comp1 == 0:
+                print("You win!")
+            elif user1 == 1 and comp1 == 2:
+                print("Computer wins!")
+            elif user1 == 2 and comp1 == 0:
+                print("Computer wins!")
+            else:
+                print("You win!")
     else:
         print("Thank you. Try again later.")
         break
