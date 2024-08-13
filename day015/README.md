@@ -25,5 +25,3 @@ This project simulates a coffee machine, allowing users to order different types
 * Enhance the user interface with a more interactive experience.
 * Implement a more realistic payment system (e.g., using different coin values).
 * Expand the coffee menu with additional options. 
-
-This project was a fun exercise in applying Python concepts like functions, data structures, and conditional logic. I'm looking forward to building upon it in the future! 
